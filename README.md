@@ -19,14 +19,15 @@ Install dependencies:
 ```bash
 pip install flask pandas scikit-learn
 ```
-```
+
 project/
 ```
 │── app.py                # Flask API
 │── model.pkl             # Saved trained model (auto-generated)
 │── wine_dataset.csv      # Saved Wine dataset (auto-generated)
 │── README.md             # Project description
-
+```
+```
 # ▶️ Run the API
 
 Start the Flask server:
@@ -34,5 +35,5 @@ python app.py
 
 Server runs on:
 http://127.0.0.1:5000
-
+```
 
