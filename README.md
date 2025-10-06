@@ -51,3 +51,20 @@ Form Data:
 # Response:
 
 {"message": "Model trained successfully"}
+
+# 2️⃣ Test on Uploaded CSV
+```
+POST /test
+Uploads a CSV file and tests the trained model.
+
+Request:
+
+POST /test
+Form Data:
+  file: test_dataset.csv
+
+
+Response:
+
+{"accuracy": 0.92}
+```
