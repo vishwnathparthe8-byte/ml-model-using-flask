@@ -68,3 +68,18 @@ Form Data:
 
 {"accuracy": 0.92}
 ```
+```
+# 5️⃣ Predict
+  
+POST /predict
+Make a prediction from a JSON array of feature values.
+
+# Request:
+
+{
+  "data": [13.2, 2.77, 2.51, 18.6, 101, 2.80, 2.69, 0.39, 1.68, 3.84, 1.23, 3.16, 830]
+}
+
+# Response:
+
+{"prediction": "0"}
