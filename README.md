@@ -48,3 +48,6 @@ POST /train
 Form Data:
   file: your_dataset.csv
 ```
+# Response:
+
+{"message": "Model trained successfully"}
