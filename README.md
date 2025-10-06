@@ -18,4 +18,13 @@ The model uses **Logistic Regression** from `scikit-learn` and can save, test, a
 Install dependencies:
 ```bash
 pip install flask pandas scikit-learn
+```
+```
+project/
+│── app.py                # Flask API
+│── model.pkl             # Saved trained model (auto-generated)
+│── wine_dataset.csv      # Saved Wine dataset (auto-generated)
+│── README.md             # Project description
+
+
 
