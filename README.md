@@ -36,4 +36,15 @@ python app.py
 Server runs on:
 http://127.0.0.1:5000
 ```
+# API Endpoints
+```
+1️⃣ Train on Uploaded CSV
 
+POST /train
+Uploads a CSV file and trains the model.
+
+Request:
+POST /train
+Form Data:
+  file: your_dataset.csv
+```
